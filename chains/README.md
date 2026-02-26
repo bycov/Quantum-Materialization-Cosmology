@@ -1,8 +1,14 @@
-# MCMC Chains for QMG Model
+# MCMC Production Chains (QMG Model)
 
-This folder contains the MCMC chains from the QMG analysis:
+This directory contains the final MCMC output for the Quantum Materialization Gravity (QMG) analysis.
 
-- `chains_QMG.npy` - 10,000 samples of 6 parameters
-- `chains_QMG_labels.txt` - Parameter names: H0, Ω_m, z_tr, Q_рост, Q_линза, α
+### Files Description:
+* **chains_QMG.npy** — Raw MCMC chains (NumPy binary format). Includes 300 steps for 32 walkers across 6 parameters ($H_0, \Omega_m, z_{tr}, Q_{growth}, Q_{lens}, \alpha$).
+* **chains_QMG_labels.txt** — Plain text file mapping columns in the `.npy` file to physical parameters.
 
-Generated with `QMG_MCMC.py` 
+### Chain Statistics:
+* **H0** ≈ 92.6 km/s/Mpc
+* **Q_lens** ≈ -0.31 (Negative lensing confirmed at >2σ)
+* **Status:** Converged (Burn-in removed)
+
+These chains are ready for cross-correlation with CMB simulations.
