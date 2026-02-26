@@ -58,6 +58,11 @@ The QMG model parameters were constrained using Pantheon+ SNe Ia, BAO, and fσ8 
 **Key findings:**
 * **$H_0 \approx 96.5$**: Significantly higher than the standard $\Lambda$CDM value.
 * **$Q_{lens} \approx -0.32$**: Strongly suggests a negative lensing modification (3$\sigma$ significance).
+* ### Model Diagnostics & Tensions
+The QMG model shows interesting behavior regarding modern cosmological tensions:
+* **S8 Tension:** The model aligns closely with KiDS weak lensing data, showing a preference for a lower $S_8$ compared to the Planck CMB baseline.
+* **$H_0$ Convergence:** Trace plots indicate stable MCMC convergence after ~150 steps, stabilizing at a high $H_0$ value.
+* **Structure Growth:** Significant deviation in $f\sigma_8$ at low redshifts, providing a unique signature of the QMG model.
 **Statistics:** $\chi^2_{\text{red}}(f\sigma_8) = 1.01$
 
 ---
