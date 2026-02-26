@@ -90,7 +90,9 @@ $$ H^2(z) = H_0^2 [\Omega_m(1+z)^3 + (1-\Omega_m)(1+z)^\alpha] $$
     ```bash
     python QMG_MCMC.py
     ```
+---
 
+**Keywords:** Modified Gravity, Hubble Tension, S8 Tension, Quantum Decoherence, Dark Energy Alternatives, MCMC, KiDS-1000, DESI BAO, Pantheon+, Quantum Materialization
 ---
 
 ## 📖 Citation / Цитирование
