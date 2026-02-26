@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as follows:"
+authors:
+  - family-names: "Bykov"
+    given-names: "Denis"
+title: "Quantum-Materialization-Cosmology: MCMC Analysis of the QMG Model"
+version: 1.0.0
+date-released: 2026-02-26
+url: "https://github.com"
