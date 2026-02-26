@@ -1,13 +1,13 @@
-[![DOI](https://zenodo.org)](https://doi.org)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18791998.svg)](https://doi.org/10.5281/zenodo.18791998)
 # Quantum Materialization Gravity (QMG)
 
 **Author:** [Denis A. Bykov](https://orcid.org)
 **Date:** February 2026
 **License:** Apache-2.0
 
-[![ORCID](https://img.shields.io)](https://orcid.org)
-[![DOI](https://zenodo.org)](https://doi.org)
-[![arXiv](https://img.shields.io)](https://arxiv.org)
+[![ORCID][(https://img.shields.io)](https://orcid.org)](https://orcid.org/0009-0002-7564-0742)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18791998.svg)](https://doi.org/10.5281/zenodo.18791998)
+
 
 ---
 
