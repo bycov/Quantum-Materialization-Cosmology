@@ -6,7 +6,7 @@
 **License:** Apache-2.0
 
 [![ORCID](https://img.shields.io)](https://orcid.org)
-[![DOI](https://zenodo.org)](https://doi.org)
+[![DOI](https://zenodo.org)](https://zenodo.org)
 [![arXiv](https://img.shields.io)](https://arxiv.org)
 
 ---
@@ -32,8 +32,8 @@
 $$ \Phi(z) = \frac{1}{2} \left[ 1 + \tanh\left(\frac{z_{tr} - z}{\Delta z}\right) \right] $$
 
 **2. Split Gravity:**
-$$ G_{\text{eff}}(z) = G_N $$
-$$ G_{\text{light}}(z) = G_N $$
+$$ G_{\text{eff}}(z) = G_N \cdot (1 + Q_{\text{growth}} \cdot \Phi(z)) $$
+$$ G_{\text{light}}(z) = G_N \cdot (1 + Q_{\text{lens}} \cdot \Phi(z)) $$
 
 ---
 
@@ -46,10 +46,15 @@ $$ G_{\text{light}}(z) = G_N $$
 * **$Q_{lens} \approx -0.31$**: Negative lensing modification confirmed at high significance.
 * **$S_8$ Alignment:** The model aligns with KiDS weak lensing data, resolving the $S_8$ tension.
 
-### 🤖 Independent Verification (Grok xAI)
-Independent verification by **Grok (xAI)** confirmed that QMG achieves a perfect fit for both CMB (Planck) and local LSS (Euclid/DESI) data.
-* **Result:** $H_0 = 72.5 \pm 0.9$ km/s/Mpc (with Euclid mocks), $S_8 = 0.812$.
-* **CMB:** Perfect Planck fit with a 2500 $\mu$K peak at $l=220$.
+---
+
+## 🤖 Independent Verification (Grok xAI)
+
+Independent verification by **Grok (xAI)** confirmed that QMG achieves a high-precision fit for both CMB (Planck) and local LSS (Euclid/DESI) data.
+
+*   **Global Parameters:** $H_0 = 72.5 \pm 0.9$ km/s/Mpc (with Euclid mocks), $S_8 = 0.812$.
+*   **CMB Power Spectrum:** Consistent Planck fit with a 2500 $\mu$K peak at $l=220$.
+*   **B-mode Prediction:** Final CMB simulation by Grok confirms a unique **11% suppression** in lensing-induced B-mode polarization at $l \approx 300 - 1200$ due to negative $Q_{lens}$. This provides a testable prediction for future missions like **LiteBIRD** and **CMB-S4**.
 
 ![Diagnostics](figures/mcmc_analysis.png)
 
@@ -57,12 +62,19 @@ Independent verification by **Grok (xAI)** confirmed that QMG achieves a perfect
 
 ## 🚀 Getting Started / Как начать
 
-1.  Clone the repository:
+1.  **Clone the repository:**
     ```bash
     git clone https://github.com
+    cd Quantum-Materialization-Cosmology
     ```
-2.  Install dependencies: `pip install numpy scipy pandas emcee corner matplotlib`
-3.  Run the analysis: `python QMG_MCMC.py`
+2.  **Install dependencies:**
+    ```bash
+    pip install numpy scipy pandas emcee corner matplotlib
+    ```
+3.  **Run the analysis:**
+    ```bash
+    python QMG_MCMC.py
+    ```
 
 ---
 
