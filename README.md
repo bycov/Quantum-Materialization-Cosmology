@@ -50,7 +50,14 @@ $$ H^2(z) = H_0^2 [\Omega_m(1+z)^3 + (1-\Omega_m)(1+z)^\alpha] $$
 | **$Q_{\text{lens}}$** | **$-0.16 \pm 0.16$** |
 | **$\alpha$** | $3.54 \pm 0.13$ |
 | **$S_8$** | $0.781 \pm 0.039$ |
+### MCMC Analysis Results
+The QMG model parameters were constrained using Pantheon+ SNe Ia, BAO, and fσ8 data.
 
+![MCMC Corner Plot](figures/mcmc_corner.png)
+
+**Key findings:**
+* **$H_0 \approx 96.5$**: Significantly higher than the standard $\Lambda$CDM value.
+* **$Q_{lens} \approx -0.32$**: Strongly suggests a negative lensing modification (3$\sigma$ significance).
 **Statistics:** $\chi^2_{\text{red}}(f\sigma_8) = 1.01$
 
 ---
