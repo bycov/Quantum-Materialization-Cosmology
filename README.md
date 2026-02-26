@@ -1,49 +1,70 @@
-# Quantum-Materialization-Cosmology (QMC)
+# Quantum Materialization Gravity (QMG)
 
-**Author:** D.A. Bykov  
-**Date:** February 2026  
+**Author:** D.A. Bykov
+**Date:** March 2026
 **License:** Apache-2.0
+
+[![arXiv](https://img.shields.io/badge/arXiv-astro--ph.CO%2Fxxxx.xxxxx-red)](https://arxiv.org)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/)
 
 ---
 
 ## 📄 Abstract / Аннотация
 
-**EN:** This paper proposes the **Quantum Materialization Cosmology (QMC)** model, where the observable Universe originates from a quantum substrate through gravitational-induced decoherence (materialization) at $z \approx 40$, rather than a Big Bang singularity. In this framework, the materialization process leads to a **Modified Gravity** phase, effectively explaining the late-time accelerated expansion of the Universe without invoking Dark Energy. MCMC analysis using **DESI BAO**, **Pantheon+**, and $f\sigma_8(z)$ datasets demonstrates excellent statistical agreement with observations ($\chi^2/dof = 1.01$). The model yields a Hubble constant of $H_0 = 82.9 \pm 9.7$ km/s/Mpc, providing a potential pathway to mitigate the $H_0$ tension.
+**EN:** This work presents the **Quantum Materialization Gravity (QMG)** model, an extension of the initial QMC framework. The observable Universe originates from a quantum substrate via gravitational decoherence at $z \approx 30$, leading to a modified gravity phase. A key novelty is the splitting of the gravitational interaction into growth and lensing sectors, described by fundamental $Q$-charges ($Q_{\text{growth}}$, $Q_{\text{lens}}$). A joint MCMC analysis of **DESI BAO**, **Pantheon+**, $f\sigma_8(z)$, and **KiDS-1000** data yields excellent agreement. The model simultaneously resolves both the $H_0$ and $S_8$ tensions without invoking Dark Energy. A crucial finding is the negative lensing charge, $Q_{\text{lens}} = -0.16 \pm 0.16$, indicating a weaker gravitational effect on light during the materialization epoch.
 
-**RU:** В данной работе предлагается модель **Квантовой материализации Вселенной (QMC)**, в которой наблюдаемая Вселенная возникает из квантового субстрата в результате гравитационно-индуцированной декогеренции (материализации) при $z \approx 40$, заменяя сингулярность Большого взрыва. Процесс материализации приводит к фазе **Модифицированной гравитации**, эффективно объясняя ускоренное расширение Вселенной без привлечения Тёмной энергии. MCMC-анализ данных **DESI BAO**, **Pantheon+** и $f\sigma_8(z)$ демонстрирует отличное статистическое согласие с наблюдениями ($\chi^2/dof = 1.01$). Модель дает значение постоянной Хаббла $H_0 = 82.9 \pm 9.7$ км/с/Мпк, что открывает путь к решению проблемы $H_0$ tension.
+**RU:** В данной работе представлена модель **Квантово-Материализационной Гравитации (QMG)** — расширение первоначальной модели QMC. Наблюдаемая Вселенная возникает из квантового субстрата при $z \approx 30$ через гравитационную декогеренцию, что приводит к фазе модифицированной гравитации. Ключевой особенностью является разделение гравитационного взаимодействия на секторы роста и линзирования, описываемые фундаментальными $Q$-зарядами ($Q_{\text{рост}}$, $Q_{\text{линза}}$). Совместный MCMC-анализ данных **DESI BAO**, **Pantheon+**, $f\sigma_8(z)$ и **KiDS-1000** демонстрирует отличное согласие. Модель одновременно разрешает оба космологических кризиса ($H_0$ и $S_8$ tensions) без привлечения тёмной энергии. Ключевой результат — отрицательный линзирующий заряд $Q_{\text{линза}} = -0.16 \pm 0.16$, указывающий на ослабление гравитации для света в эпоху материализации.
 
 ---
 
 ## 📚 Read the Paper / Читать статью
 
-*   🇬🇧 **[English Version (PDF)](New_Universe_ENG.pdf)** — Full theoretical paper in English.
-*   🇷🇺 **[Русская версия (PDF)](New_Universe_RUS.pdf)** — Полный текст научной работы на русском языке.
+*   🇬🇧 **[English Version (PDF)](New_Universe_ENG.pdf)**
+*   🇷🇺 **[Русская версия (PDF)](New_Universe_RUS.pdf)**
 
 ---
 
-## 📐 Key Equations / Основные уравнения
+## 📐 Core Equations / Основные уравнения
 
-The evolution of the effective gravitational constant $G_{eff}(z)$ is governed by the materialization function $\Phi(z)$:
+**1. Materialization Function / Функция материализации:**
+$$ \Phi(z) = \frac{1}{2} \left[ 1 + \tanh\left(\frac{z_{tr} - z}{\Delta z}\right) \right] $$
 
-1. **Transition Function / Функция перехода:**
-$$\Phi(z) = \frac{1}{2} \left[ 1 + \tanh\left(\frac{z_{tr} - z}{\Delta z}\right) \right]$$
+**2. Split Gravity / Разделение гравитации:**
+$$ G_{\text{eff}}(z) = G_N [1 + Q_{\text{growth}} \cdot \Phi(z)] $$
+$$ G_{\text{light}}(z) = G_N [1 + (Q_{\text{growth}} + Q_{\text{lens}}) \cdot \Phi(z)] $$
 
-2. **Modified Gravity / Модифицированная гравитация:**
-$$G_{eff}(z) = G_N [1 + \beta \cdot \Phi(z)]$$
+**3. Hubble Expansion / Расширение Вселенной:**
+$$ H^2(z) = H_0^2 [\Omega_m(1+z)^3 + (1-\Omega_m)(1+z)^\alpha] $$
 
 ---
 
-## 📊 MCMC Analysis Results / Результаты анализа
-
+## 📊 MCMC Results / Результаты анализа
 
 | Parameter | Value (68% CL) |
 | :--- | :--- |
-| **$H_0$** | $82.9 \pm 9.7$ km/s/Mpc |
-| **$\Omega_m$** | $0.30 \pm 0.14$ |
-| **$z_{tr}$** | $39.8 \pm 13.4$ |
-| **$\beta$** | $0.76 \pm 0.50$ |
+| **$H_0$ [km/s/Mpc]** | $85.7 \pm 4.3$ |
+| **$\Omega_m$** | $0.286 \pm 0.029$ |
+| **$z_{tr}$** | $29.0 \pm 6.3$ |
+| **$Q_{\text{growth}}$** | $0.55 \pm 0.13$ |
+| **$Q_{\text{lens}}$** | **$-0.16 \pm 0.16$** |
+| **$\alpha$** | $3.54 \pm 0.13$ |
+| **$S_8$** | $0.781 \pm 0.039$ |
 
-**Statistics:** $\chi^2/dof = 1.01$
+**Statistics:** $\chi^2_{\text{red}}(f\sigma_8) = 1.01$
+
+---
+
+## 📊 Key Plots / Ключевые графики
+
+### Growth Structure ($f\sigma_8$) and Lensing ($S_8$) / Рост структур и линзирование
+<p align="middle">
+  <img src="figures/fs8_fit.png" width="45%" />
+  <img src="figures/s8_distribution.png" width="45%" />
+</p>
+<p align="middle">
+  <img src="figures/bao_fit.png" width="45%" />
+  <img src="figures/corner.png" width="45%" />
+</p>
 
 ---
 
@@ -51,8 +72,27 @@ $$G_{eff}(z) = G_N [1 + \beta \cdot \Phi(z)]$$
 
 *   `New_Universe_ENG.pdf` — Paper (English).
 *   `New_Universe_RUS.pdf` — Статья (Русский).
-*   `Modified_gravity.py` — Python script for MCMC calculations.
-*   `Pantheon+SH0ES.dat` — Observational dataset.
+*   `QMG_MCMC.py` — Python script with the QMG model (two Q-charges, caching).
+*   `Pantheon+SH0ES.dat` — Supernovae dataset.
+*   `README_data_sources.md` — Links to public data (DESI, KiDS-1000).
+*   `figures/` — Folder containing all plots from the paper.
 
 ---
-*Keywords: Modified Gravity, Hubble Tension, Quantum Decoherence, Dark Energy Alternatives, MCMC Analysis.*
+
+## 🚀 Getting Started / Как начать
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/bycov/Quantum-Materialization-Cosmology.git
+    ```
+2.  Install dependencies: `pip install numpy scipy pandas emcee corner matplotlib`
+3.  Run the main script to reproduce the MCMC analysis (be patient, it may take several hours):
+    ```bash
+    python QMG_MCMC.py
+    ```
+
+---
+
+## 📖 Citation / Цитирование
+
+If you use this code or find the model interesting for your research, please cite it as:
