@@ -3,6 +3,7 @@ message: "If you use this software, please cite it as follows:"
 authors:
   - family-names: "Bykov"
     given-names: "Denis"
+    orcid: "https://orcid.org"
 title: "Quantum-Materialization-Cosmology: MCMC Analysis of the QMG Model"
 version: 1.0.0
 date-released: 2026-02-26
