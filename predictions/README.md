@@ -1,9 +1,20 @@
-# Model Predictions (Future Constraints)
+# 🔮 QMG Model Predictions for Future Experiments
 
-This directory contains observational predictions for the **Quantum Materialization Gravity (QMG)** model.
+This folder contains **mock data** and **predictions** for upcoming cosmological surveys. Generated from best-fit QMG parameters.
 
-### Euclid Mock Forecast:
-* **File:** `euclid_fs8_mock.txt` — This dataset represents the synthetic $f\sigma_8(z)$ values predicted by the QMG model for the redshift range $0.7 < z < 2.0$, formatted for compatibility with the upcoming ESA **Euclid** mission.
-* **Goal:** To demonstrate the unique signature of QMG in the structure growth rate compared to standard $\Lambda$CDM.
+## 📊 Available Files
 
-These mocks show that $Q_{growth} \approx 0.59$ provides a distinct deviation that Euclid will be able to verify with high precision.
+| File | Description | Status |
+|------|-------------|--------|
+| `euclid_fs8_mock.txt` | Euclid fσ₈(z) growth data | ✅ |
+| `euclid_pk_mock.txt` | Euclid P(k) power spectrum | ✅ NEW |
+| `euclid_shear_mock.txt` | Euclid weak lensing shear | ✅ NEW |
+| `desi_dr2_bao_mock.txt` | DESI BAO distance | ✅ NEW |
+| `desi_dr2_fs8_mock.txt` | DESI RSD fσ₈(z) | ✅ NEW |
+| `cmb_bmode_prediction.txt` | **11% suppression in B-modes!** | ✅ NEW |
+
+## 🚨 Key Signature
+
+**CMB B-modes:** 11% suppression at l=300-1200 due to negative Q_линза = -0.16 — directly testable by LiteBIRD/CMB-S4!
+
+Generated: February 2026
