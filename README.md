@@ -117,19 +117,7 @@ Grok (xAI) independently confirmed:
 - [figures/](figures/) - Generated plots
 - [predictions/](predictions/) - Mock data
 
----
-## Citation / Цитирование
 
-```bibtex
-@software{bykov_2026_qmg,
-  author = {Bykov, Denis A.},
-  title = {Quantum Materialization Gravity (QMG)},
-  year = {2026},
-  publisher = {Zenodo},
-  version = {2.0.0},
-  doi = {10.5281/zenodo.18791998},
-  url = {https://github.com/bycov/Quantum-Materialization-Cosmology}
-}
 ---
 ## Getting Started / Как начать
 
