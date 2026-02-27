@@ -118,16 +118,6 @@ Grok (xAI) independently confirmed:
 - [predictions/](predictions/) - Mock data
 
 ---
-
-## Getting Started / Как начать
-
-```bash
-git clone https://github.com/bycov/Quantum-Materialization-Cosmology
-cd Quantum-Materialization-Cosmology
-pip install -r requirements.txt
-python code/QMG_MCMC.py
-
----
 @software{bykov_2026_qmg,
   author = {Bykov, Denis A.},
   title = {Quantum Materialization Gravity (QMG)},
@@ -146,6 +136,16 @@ fσ₈: Alam et al. (2017) arXiv:1607.03155
 KiDS-1000: Heymans et al. (2021) arXiv:2007.15632
 
 ---
+## Getting Started / Как начать
+
+```bash
+git clone https://github.com/bycov/Quantum-Materialization-Cosmology
+cd Quantum-Materialization-Cosmology
+pip install -r requirements.txt
+python code/QMG_MCMC.py
+
+---
+
 
 Keywords: Modified Gravity, Hubble Tension, S8 Tension, Quantum Decoherence, Dark Energy Alternatives, MCMC, KiDS-1000, DESI BAO, Pantheon+, LiteBIRD, CMB-S4
 ---
