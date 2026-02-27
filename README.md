@@ -49,6 +49,12 @@ G_light(z) = G_N[1 + (Q_growth + Q_lens) Φ(z)] (lensing / линзирован�
 **Hubble Expansion:**
 H²(z) = H₀²[Ω_m(1+z)³ + (1-Ω_m)(1+z)ᵅ]
 
+**Linear Growth of Perturbations / Рост возмущений:**
+$$\frac{d^2\delta}{dz^2} + \left[\frac{3}{z + 1} + \frac{H'}{H}\right] \frac{d\delta}{dz} - \frac{3\Omega_m(z)}{2E^2(z)}\frac{G_{eff}(z)}{G_N}\delta = 0$$
+
+**S8 Parameter (Lensing normalization) / Параметр S8:**
+$$S_8 = \sigma_8 \sqrt{\frac{\Omega_m}{0.3}} \cdot \frac{G_{light}(0)}{G_N}$$
+
 ---
 
 ## MCMC Results / Результаты
