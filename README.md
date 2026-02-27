@@ -118,15 +118,6 @@ Grok (xAI) independently confirmed:
 - [predictions/](predictions/) - Mock data
 
 ---
-
-## Getting Started / Как начать
-
-```bash
-git clone https://github.com/bycov/Quantum-Materialization-Cosmology
-cd Quantum-Materialization-Cosmology
-pip install -r requirements.txt
-python code/QMG_MCMC.py
-
 ## Citation / Цитирование
 
 ```bibtex
@@ -139,3 +130,13 @@ python code/QMG_MCMC.py
   doi = {10.5281/zenodo.18791998},
   url = {https://github.com/bycov/Quantum-Materialization-Cosmology}
 }
+---
+## Getting Started / Как начать
+
+```bash
+git clone https://github.com/bycov/Quantum-Materialization-Cosmology
+cd Quantum-Materialization-Cosmology
+pip install -r requirements.txt
+python code/QMG_MCMC.py
+
+
