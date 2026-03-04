@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18791998.svg)](https://doi.org/10.5281/zenodo.18791998)
 
-[![ResearchGate DOI](https://img.shields.io)](https://doi.org/10.13140/RG.2.2.11249.95843)
+[![10.13140/RG.2.2.11249.95843](https://doi.org/10.13140/RG.2.2.11249.95843)
 # Quantum Materialization Gravity (QMG)
 
 **Author:** Denis A. Bykov  
