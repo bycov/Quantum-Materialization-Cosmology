@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18791998.svg)](https://doi.org/10.5281/zenodo.18791998)
-
+[![DOI](https://img.shields.io)](https://doi.org)
 # Quantum Materialization Gravity (QMG)
 
 **Author:** Denis A. Bykov  
@@ -131,7 +131,17 @@ Grok (xAI) independently confirmed:
 ```bash
 git clone https://github.com/bycov/Quantum-Materialization-Cosmology
 cd Quantum-Materialization-Cosmology
+
+
+---
+## Citation
+
+If you use this model or code in your research, please cite the preprint:
+
+**Bykov, D. A. (2026). Quantum Materialization Gravity (QMG): A Unified Solution to the Accelerated Expansion, Structure Growth, and Weak Lensing.**  
+ResearchGate Preprint. DOI: [10.13140/RG.2.2.11240.99843](https://doi.org)
 pip install -r requirements.txt
 python code/QMG_MCMC.py
 
-
+---
+[Read the full paper on ResearchGate](https://www.researchgate.net)
