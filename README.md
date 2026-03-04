@@ -136,7 +136,7 @@ ResearchGate Preprint. DOI: [10.13140/RG.2.2.11240.99843](https://doi.org/10.131
 pip install -r requirements.txt
 python code/QMG_MCMC.py
 
-[Read the full paper on ResearchGate](https://www.researchgate.net/publication/388960418)
+[Read the full paper on ResearchGate](https://www.researchgate.net/publication/401523231)
 
 ---
 
