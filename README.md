@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18791998.svg)](https://doi.org/10.5281/zenodo.18791998)
+
 [![DOI](https://img.shields.io)](https://doi.org)
 # Quantum Materialization Gravity (QMG)
 
@@ -124,16 +125,8 @@ Grok (xAI) independently confirmed:
 - [figures/](figures/) - Generated plots
 - [predictions/](predictions/) - Mock data
 
-
 ---
-## Getting Started / Как начать
 
-```bash
-git clone https://github.com/bycov/Quantum-Materialization-Cosmology
-cd Quantum-Materialization-Cosmology
-
-
----
 ## Citation
 
 If you use this model or code in your research, please cite the preprint:
@@ -143,5 +136,16 @@ ResearchGate Preprint. DOI: [10.13140/RG.2.2.11240.99843](https://doi.org)
 pip install -r requirements.txt
 python code/QMG_MCMC.py
 
----
 [Read the full paper on ResearchGate](https://www.researchgate.net)
+
+---
+
+## Getting Started / Как начать
+
+```bash
+git clone https://github.com/bycov/Quantum-Materialization-Cosmology
+cd Quantum-Materialization-Cosmology
+
+
+---
+
